@@ -6,7 +6,7 @@ Add the Rakefile to your RubyGem project alter your gemspec like so
 ```ruby
 require_relative 'lib/my-new-rubygem/version'
 
-SPEC = Gem::Specification.new do |s|
+Gem::Specification.new do |s|
   s.name        = 'my-new-rubygem'
   s.version     = MyNewRubyGem::VERSION
   s.date        = '2016-10-12'
